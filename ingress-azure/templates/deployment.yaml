@@ -98,7 +98,7 @@ spec:
           path: /etc/kubernetes/
           type: Directory
       {{- if .Values.armAuth }}
-      {{- if .Values.armAuth.secretName -}}
+      {{- if .Values.armAuth.secretName }}
       {{- if eq .Values.armAuth.type "servicePrincipal"}}
       - name: networking-appgw-k8s-azure-service-principal-mount
         secret:
