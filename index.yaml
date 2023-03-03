@@ -3,12 +3,12 @@ entries:
   ingress-azure:
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2023-03-03T16:34:04.023882+07:00"
+    created: "2023-03-03T16:37:09.001192+07:00"
     description: Use Azure Application Gateway as the ingress for an Azure Kubernetes
       Service cluster.
     digest: d20b9ae1c189dc98e68ca2bc7ca740cfc2c9e4c208f12abe8ff4c16719fe5a26
     name: ingress-azure
     urls:
-    - ingress-azure-1.5.0.tgz
+    - https://dmakeroam.github.io/application-gateway-kubernetes-ingress/ingress-azure-1.5.0.tgz
     version: 1.5.0
-generated: "2023-03-03T16:34:04.023301+07:00"
+generated: "2023-03-03T16:37:09.000348+07:00"
